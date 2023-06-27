@@ -1,12 +1,17 @@
 import './App.css';
+import NavBar from './components/navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Carbon Loop</h1>
-      </header>
-    </div>
+    <>
+      <Router>
+        <NavBar/>
+        <Routes>
+            <Route path='/' exact/>
+        </Routes>
+      </Router>
+    </>
   );
 }
 
