@@ -30,9 +30,10 @@
     align-items: center;
   }
   
-  .fa-typo3 {
+  .title {
     margin-left: 0.5rem;
     font-size: 1.8rem;
+    align-items: center;
   }
   
   .nav-menu {
