@@ -1,7 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import { BsPlusCircleFill } from 'react-icons/bs';
-import { FaMinus } from 'react-icons/fa';
 import './faq.css'
 
 function FAQ({question,answer}) {
@@ -9,11 +7,12 @@ function FAQ({question,answer}) {
     const iconStyle = {
         color: '#f7f7f7',
         fontSize: 'large',
+        cursor: 'pointer'
     };
     return(
         <>
             <div>
-                <div className="question-container">
+                <div className="question-container" onClick={() => setShowAnswer(!showAnswer)}>
                     <h2 className="question" onClick={() => setShowAnswer(!showAnswer)}> {question} </h2>
                     {
                         showAnswer ? (

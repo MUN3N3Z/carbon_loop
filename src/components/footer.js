@@ -71,7 +71,6 @@ function Footer() {
         <div className='footer-logo'>
           <Link to='/' className='social-logo'>
               CARBON LOOP
-            <i className='fab fa-typo3' />
           </Link>
         </div>
         <small className='website-rights'>CARBON LOOP © 2023</small>

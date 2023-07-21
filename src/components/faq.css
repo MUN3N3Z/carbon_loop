@@ -21,6 +21,7 @@
     margin-bottom: 0.5rem; 
     border-radius: 0.375rem;
     border: 1px solid #ffffff;
+    
 }
 .question{
     font-size: large;
@@ -28,6 +29,7 @@
     font-weight: 600;
     letter-spacing: 0.05em;
     color: #ffffff;
+    text-align: center;
 }
 
 .answer{
@@ -35,10 +37,12 @@
     padding-right: 1.25rem;
     font-size: medium;
     color: #ffffff;
+    letter-spacing: 0.05em;
 }
 
 .button{
     border: #1d2b28;
     cursor: pointer;
     font-size: large;
+    text-align: right;
 }
