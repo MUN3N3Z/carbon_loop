@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.technology-container{
+    background: #1d2b28;
+    color: #f7f7f7;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.technology-header{
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+    color: #f7f7f7;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold; 
+}
+
+.technology-description{
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.technology-description p {
+    margin-bottom: 10px;
+}
+
+.technology-description ul {
+list-style: none;
+margin-bottom: 10px;
+padding-left: 20px;
+}
+
+.technology-description ul:before {
+content: "•";
+padding-right: 10px;
+}
+
+/* Images and animations */
+.technology-description img {
+max-width: 100%;
+display: block;
+margin: 20px auto;
+}
+
+/* Media Queries - Adjust as needed */
+@media (max-width: 600px) {
+.technology-header {
+    font-size: 24px;
+}
+
+.technology-description {
+    font-size: 14px;
+}
+}

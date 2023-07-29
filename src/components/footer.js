@@ -22,7 +22,7 @@ function Footer() {
     // Check if email matches the regular expression
     if (emailRegex.test(email)) {
       try {
-        const pathToUser = "emails".concat("/",email);
+        const pathToUser = "emails".concat("/",email); 
         // Get reference to firebase "email" collection
         const userDoc = doc(db, pathToUser);
         // Update userDoc with new newsletter preference
@@ -83,14 +83,14 @@ function Footer() {
           >
             <i className='fab fa-facebook-f' />
           </Link> */}
-          {/* <Link
+          { <Link
             className='social-icon-link twitter'
             to='/'
             target='_blank'
             aria-label='Twitter'
           >
             <i className='fab fa-twitter' />
-          </Link> */}
+          </Link> }
           <Link
             className='social-icon-link linkedin'
             to='/'
