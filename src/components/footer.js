@@ -75,14 +75,6 @@ function Footer() {
         </div>
         <small className='website-rights'>CARBON LOOP © 2023</small>
         <div className='social-icons'>
-          {/* <Link
-            className='social-icon-link facebook'
-            to='/'
-            target='_blank'
-            aria-label='Facebook'
-          >
-            <i className='fab fa-facebook-f' />
-          </Link> */}
           { <Link
             className='social-icon-link twitter'
             to='/'
@@ -114,6 +106,14 @@ function Footer() {
             aria-label='Youtube'
           >
             <i className='fab fa-youtube' />
+          </Link> */}
+          {/* <Link
+            className='social-icon-link facebook'
+            to='/'
+            target='_blank'
+            aria-label='Facebook'
+          >
+            <i className='fab fa-facebook-f' />
           </Link> */}
         </div>
       </div>

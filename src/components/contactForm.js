@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 import Button from './button';
 import './contactForm.css'
-import axios from 'axios'
 import emailjs from '@emailjs/browser'
 
 function ContactForm() {

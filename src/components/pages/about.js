@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../about.css';
 import Card from '../card';
 import { founders_data } from '../founders_data';
 
 function About() {
-    const [founders, setFounders] = useState(founders_data)
     return(
         <div className='about-container'>
             <div className="company-section">
@@ -23,13 +22,14 @@ function About() {
                 </div>
                 <div className="founder-cards">
                     <ul className="founders-container">
-                        {founders.map((founder) => (
+                        {founders_data.map((founder) => (
                             <Card {...founder} />
                         ))}
                     </ul>
                 </div>
             </div>
-        </div>
+            
+    </div>
     )
 }
 
