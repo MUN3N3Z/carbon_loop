@@ -32,10 +32,10 @@ function ContactForm() {
             // Send email
             try {
                 emailjs.sendForm(
-                    "service_evles8i",
-                    "template_wz0ho47",
+                    "service_t30b4vt",
+                    "template_b3476ms",
                     form.current,
-                    "JvgN1M9SwiLVXSg-N"
+                    "AoGYZAOTQI9IgYujw"
                 )
                 .catch(error => console.error('Axios Email Error:', error));
                 // Reset form after successful submission {Update later with react toast five}
